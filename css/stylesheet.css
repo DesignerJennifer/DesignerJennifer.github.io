@@ -1,50 +1,97 @@
+/* Style for Body */
+body {
+  background-image: url('../images/grey_@2X.png');
+  padding: 0px, 0px, 0px, 0px;
+  margin: 0px;
+}
 
-
-
-
-
+/* Header background */
 header {
-background-color: white;
+  display: block;
+  height: 75px;
+  width: auto;
+  background-color: white;
+  padding: 0px;
+  border-bottom: solid;
+  border-bottom-style: inset;
+}
+
+/* Text Logo Style */  
+#logo {
+  float:left;
+  overflow: hidden;
+  clear: both;
+  display: inline-block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  background-color: #4aaaa5;
+  height: 37px;
+  padding-right: 19px;
+  padding-left: 19px;
+  margin-right: 0px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Style the links inside the navigation bar */
+#navlist {
+  float: right;
+  text-align: center;
+  align-self: center;
+  height: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}   
+
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  padding-top: 0px;
+}  
+    
+a:link{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #777777;
+  font-size: 10pt;
+
+}
+
+.clear {
+  clear: both;
 }
 
 h1 {
-
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
 }
-
 
 p {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    }
       
-li {
-    float: left;
-    }
-      
-li a {
-    display: block;
-    color: #777777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+/* title border */
+hr.new1 {
+  border-top: 1px solid #cccccc;
+}
 
-a {
-    display: block;
-    padding: 8px;
-  }
+.article {
+  background: white;
+  width: 960px;
+  border: 1px;
+  border-color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
 
-section {
-    display: block; size: 960px;
-  }
+}
 
+/* footer style */
 footer {
     position: fixed;
     left: 0;
