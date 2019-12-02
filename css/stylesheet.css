@@ -1,19 +1,20 @@
 /* Style for Body */
 body {
   background-image: url('../images/grey_@2X.png');
-  padding: 0px, 0px, 0px, 0px;
   margin: 0px;
+  overflow-y: auto;
 }
 
 /* Header background */
 header {
-  display: block;
+  display: flex;
   height: 75px;
-  width: auto;
+  justify-content: center;
   background-color: white;
-  padding: 0px;
   border-bottom: solid;
   border-bottom-style: inset;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Text Logo Style */  
@@ -28,7 +29,7 @@ header {
   height: 37px;
   padding-right: 19px;
   padding-left: 19px;
-  margin-right: 0px;
+  margin-right: 420px;
   padding-top: 19px;
   padding-bottom: 19px;
   margin-top: 0px;
@@ -84,10 +85,14 @@ hr.new1 {
 
 .article {
   background: white;
-  width: 960px;
-  border: 1px;
-  border-color: #666666;
-  font-family: Arial, Helvetica, sans-serif;
+    width: 940px;
+    border: 1px;
+    border-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 10px;
 
 }
 
