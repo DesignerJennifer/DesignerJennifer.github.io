@@ -116,6 +116,11 @@ hr.new1 {
     text-align: center;
   }
 
+
+  .grid-container {
+  display: grid;
+}
+
   .portfolio_label {
     height: 100px;
     width: 275px;
@@ -123,6 +128,8 @@ hr.new1 {
     font-family: Arial, Helvetica, sans-serif;
     font-display: center;
   }
+
+  .subhead
 
   .ident {
     width: 100%;
@@ -132,3 +139,21 @@ hr.new1 {
     width: 100%;
     height: 250px;
   }
+
+ .btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
