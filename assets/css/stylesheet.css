@@ -129,7 +129,24 @@ hr.new1 {
     font-display: center;
   }
 
-  .subhead
+  .subhead {
+    font-weight: bold;
+  }
+
+ .list li {
+    float: left;
+    list-style-position: inside;
+    list-style-type: disc;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 600px) {
+    .list li {
+        float: none;
+        list-style-position: outside;
+        margin: 0;
+    }
+
 
   .ident {
     width: 100%;
@@ -157,3 +174,4 @@ hr.new1 {
 .warning {color: orange;}
 .danger {color: red;}
 .default {color: black;}
+}
